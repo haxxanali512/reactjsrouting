@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const About = () => {
     return (
 <div class="feat bg-gray pt-5 pb-5">
@@ -45,7 +47,9 @@ const About = () => {
         </div>
       </div>
     </div>
+    <Link to="/"><button>Go back</button></Link>
   </div>
+  
 
     );
 }

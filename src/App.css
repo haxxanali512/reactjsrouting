@@ -358,6 +358,7 @@ button span{
   font-size: 18px;
   border-radius: 30px;
 }
+
 .control{
   display: flex;
   align-items: center;
@@ -388,4 +389,11 @@ button span{
 }
 .on{
   opacity: 1;
+}
+
+/* ---- reset ---- */
+
+.main_content {
+  position:relative;
+  z-index:9999;
 }

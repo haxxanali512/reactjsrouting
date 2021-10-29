@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 const Home = () => {
     return (
-        <div className="hero">
+       
+      <div className = "main_content">
+            <div className="hero" id="particles-js">
         <nav>
             <img src="https://i.postimg.cc/DydN4snm/menu.png" alt="" className="menu-img" />
             <img src="https://i.postimg.cc/RZSD7FZd/logo.png" alt="" className="logo" />
@@ -14,7 +16,9 @@ const Home = () => {
         </div>
 
         <div className="text-container">
-            <h1>Latest <br /> in Lightning</h1>
+            <h1>Latest <br /></h1> 
+                
+            <h1 style = {{color: "#00986f"}}>in Lightning</h1>
             <p>This is the first lamp from our company. We're makinga huge collection of modern lamps in all categories from home use to office use.</p>
             <Link to="/about"><a href="">Why choose us ? </a></Link>
             <div className="control">
@@ -24,6 +28,9 @@ const Home = () => {
             </div>
         </div>
     </div>
+      </div>
+      
+ 
     )
 }
 
